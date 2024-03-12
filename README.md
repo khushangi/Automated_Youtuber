@@ -6,14 +6,14 @@ In the initial phase of this project, I utilized Tampermonkey, a Chrome extensio
 The JavaScript code, integrated into Tampermonkey, generates a button on your Instagram page. 
 This button serves the purpose of enabling users to easily copy the URLs of the reels they desire.
 
-The functionality you implemented in JavaScript provides users with a streamlined process for selecting and gathering the URLs of the Instagram reels they wish to manipulate further. 
-By embedding this script into Tampermonkey, you've seamlessly integrated this feature into your browsing experience on Instagram.
+The functionality implemented in JavaScript provides users with a streamlined process for selecting and gathering the URLs of the Instagram reels they wish to manipulate further. 
+By embedding this script into Tampermonkey, seamlessly integrates this feature into your browsing experience on Instagram.
 
 Python Scripts:
 
 The Python scripts come into play after the user has selected and copied the URLs of the desired Instagram reels. 
 I have created a Python script using the Instaloader library to download these reels. (download.py)
-Instaloader is a powerful tool for downloading media from Instagram profiles, and your script efficiently utilizes its capabilities to fetch the reels based on the provided URLs.
+Instaloader is a powerful tool for downloading media from Instagram profiles, and script efficiently utilizes its capabilities to fetch the reels based on the provided URLs.
 
 Subsequently, I've developed another Python script (rearrange.py) to rearrange the downloaded reels in a specific order according to the user's preferences. This step adds a personalized touch to the compilation process, allowing users to curate their content in a way that makes sense to them.
 
@@ -27,3 +27,4 @@ The Python scripts take over from there, leveraging the capabilities of Instaloa
 
 This project has a thoughtful approach to user experience. 
 By combining these technologies, a comprehensive solution is created that empowers users to have greater control over their Instagram reel content. 
+To run this code add your data to data.py
